@@ -58,6 +58,11 @@ export const Content = styled.div`
         text-align: justify;
 
     }
+    >div:nth-child(1){
+        display: flex;
+        justify-content: space-between;
+
+    }
         
 `;
 

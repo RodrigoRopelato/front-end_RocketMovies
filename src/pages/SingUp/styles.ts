@@ -57,7 +57,7 @@ export const Backgroud = styled.div`
     background-size: cover;
 `;
 
-export const Back = styled(Link)`
+export const Back = styled.div`
     width: 100%;
     display: flex;
     align-items: center;

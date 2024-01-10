@@ -48,6 +48,7 @@ export const Form = styled.form`
         gap: 24px;
         align-self: stretch;
         border-radius: 8px;
+        flex-wrap: wrap;
 
         background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
 
@@ -63,7 +64,7 @@ export const Form = styled.form`
      
 `;
 
-export const Back = styled(Link)`
+export const Back = styled.div`
     width: 70px;
     display: flex;
     align-items: center;
